@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "529518481719",
+    "project_id": "codsoft-universityattendance",
+    "storage_bucket": "codsoft-universityattendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529518481719:android:dace5dc87ff369f6ee4ab2",
+        "android_client_info": {
+          "package_name": "com.imranmelikov.codsoft_universityattendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyyqkTvpqPZNljTQCbqGz09Y5X_lzwdHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

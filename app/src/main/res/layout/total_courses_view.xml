@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/total_balance_view"
+    android:layout_width="match_parent"
+    android:layout_height="84dp"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/surface"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/total_balance_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans"
+            android:text="@string/student"
+            android:layout_marginStart="20dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Overline" />
+
+        <TextView
+            android:id="@+id/total_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/opensans"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textStyle="bold"
+            tools:text="Ceksin Cenqu" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
