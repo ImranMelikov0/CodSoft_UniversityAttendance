@@ -5,4 +5,5 @@
     <color name="blue_500">#006AF6</color>
     <color name="surface">#FFFFFF</color>
     <color name="background">#f9f9f9</color>
+    <color name="gray">#e9ecef</color>
 </resources>
