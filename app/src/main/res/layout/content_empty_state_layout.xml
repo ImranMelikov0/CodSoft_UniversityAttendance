@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/empty_state_view"
     android:layout_width="match_parent"
     android:visibility="gone"
@@ -32,5 +33,37 @@
         android:text="@string/text_transaction_empty_desc"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
         android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/progress_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/no_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/try_again_later"
+            android:textColor="@color/black"
+            android:fontFamily="@font/opensans"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textSize="22sp"/>
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:indeterminateTint="@color/blue_500"
+            />
+    </LinearLayout>
+
 
 </RelativeLayout>

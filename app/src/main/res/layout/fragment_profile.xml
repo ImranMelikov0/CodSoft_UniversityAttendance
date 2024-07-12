@@ -88,7 +88,8 @@
                 android:layout_marginBottom="20dp"/>
             <LinearLayout
                 android:id="@+id/profile_linear"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -131,12 +132,13 @@
 
             <LinearLayout
                 android:id="@+id/profile_email"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <TextView
-                    android:layout_weight="1"
+                    android:layout_weight="4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/email"
@@ -173,7 +175,8 @@
                 android:layout_marginBottom="12dp"/>
             <LinearLayout
                 android:id="@+id/start_date_linear"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -219,7 +222,8 @@
                 android:layout_marginBottom="12dp"/>
             <LinearLayout
                 android:id="@+id/collage_linear"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -238,7 +242,7 @@
                     android:orientation="horizontal"
                     android:layout_height="match_parent">
                     <TextView
-                        android:id="@+id/tel_text"
+                        android:id="@+id/collage_name_text"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="@string/collage"
@@ -260,8 +264,9 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginBottom="12dp"/>
             <LinearLayout
-                android:id="@+id/account_name_linear"
-                android:layout_marginStart="8dp"
+                android:id="@+id/acedemic_degree_linear"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -280,7 +285,7 @@
                     android:orientation="horizontal"
                     android:layout_height="match_parent">
                     <TextView
-                        android:id="@+id/name_text"
+                        android:id="@+id/academic_degree_text"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -309,7 +314,8 @@
             <LinearLayout
                 android:id="@+id/account_log_out_linear"
                 android:layout_marginTop="12dp"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
                 android:layout_marginBottom="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -361,7 +367,7 @@
             android:textStyle="bold"
             android:textAlignment="center"
             android:visibility="gone"
-            android:textSize="30sp"/>
+            android:textSize="22sp"/>
         <ProgressBar
             android:layout_gravity="center"
             android:id="@+id/progress"

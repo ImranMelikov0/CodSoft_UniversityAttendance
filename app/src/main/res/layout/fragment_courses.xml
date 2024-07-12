@@ -23,8 +23,8 @@
             android:layout_height="wrap_content">
 
             <include
-                android:id="@+id/total_balance_view"
-                layout="@layout/total_courses_view"
+                android:id="@+id/student_name_view"
+                layout="@layout/student_name_view"
                 android:layout_width="match_parent"
                 android:layout_height="124dp"
                 android:layout_marginStart="8dp"
@@ -35,7 +35,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <LinearLayout
-                android:id="@+id/total_income_expense_view"
+                android:id="@+id/total_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
@@ -43,7 +43,7 @@
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/total_balance_view">
+                app:layout_constraintTop_toBottomOf="@id/student_name_view">
 
                 <include
                     android:id="@+id/total_courses_card_view"
@@ -53,7 +53,7 @@
                     android:layout_weight="1" />
 
                 <include
-                    android:id="@+id/enrolled_courses_card_view"
+                    android:id="@+id/academic_degree_card_view"
                     layout="@layout/content_courses_card_layout"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                 android:text="@string/courses"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/total_income_expense_view" />
+                app:layout_constraintTop_toBottomOf="@id/total_view" />
 
 
             <androidx.recyclerview.widget.RecyclerView
@@ -101,7 +101,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/settings"
+        android:id="@+id/profile"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_margin="20dp"
